@@ -10,12 +10,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
 import { AuthService } from './auth/auth.service';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavListComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
