@@ -2,7 +2,6 @@
 <mat-toolbar>Product Manager</mat-toolbar>
 
 <mat-sidenav-container class="container">
-
   <mat-sidenav #drawer mode="side" opened="opened()">
     <!-- Sidenav content here -->
     <app-sidenav-list></app-sidenav-list>
@@ -12,6 +11,6 @@
       <mat-icon>menu</mat-icon>
     </button>
     <!-- Main content here -->
-
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

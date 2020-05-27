@@ -43,3 +43,5 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 ## Task: Add: user and auth models
 
 ## Task: Add: routing
+
+## Task: Add: Welcome component

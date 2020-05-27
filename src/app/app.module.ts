@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
 import { AuthService } from './auth/auth.service';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
