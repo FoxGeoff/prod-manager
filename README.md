@@ -37,3 +37,5 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 ## Task: Add: Sidenav to app.component
 
 ## Task: Add: sidenav-list component
+
+## Task: Add: AuthService, Code: Sidenav component
