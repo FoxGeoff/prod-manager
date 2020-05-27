@@ -35,3 +35,5 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 * FLex Layout Responsive API: <https://github.com/angular/flex-layout/wiki/Responsive-API>
 
 ## Task: Add: Sidenav to app.component
+
+## Task: Add: sidenav-list component
