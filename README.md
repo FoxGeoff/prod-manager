@@ -33,3 +33,5 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 * Flex Layout API: <https://github.com/angular/flex-layout/wiki/Declarative-API-Overview>
 * FLex Layout Responsive API: <https://github.com/angular/flex-layout/wiki/Responsive-API>
+
+## Task: Add: Sidenav to app.component
