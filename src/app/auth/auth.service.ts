@@ -26,7 +26,7 @@ export class AuthService {
       userId: Math.round(Math.random() * 1000).toString()
     };
     this.authChange.next(true);
-    this.router.navigate(['/training']);
+    this.router.navigate(['/welcome']);
     console.log('login!');
   }
 
