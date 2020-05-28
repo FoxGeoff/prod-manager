@@ -50,4 +50,4 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 ## Task: Add: Signup component
 
-## Task: Add Route guard
+## Task: Add: AuthGuard class
