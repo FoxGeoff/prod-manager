@@ -2,7 +2,10 @@
 <app-header></app-header>
 
 <mat-sidenav-container class="container">
-  <mat-sidenav #sidenav mode="side" [opened]="openSidenav">
+  <!-- [opened]="openSidenav" initial state unconditionl open
+       [opened]="!smallWidthBreakpoint state is updated on change of screen size
+  -->
+  <mat-sidenav #sidenav mode="side" [opened]="!smallWidthBreakpoint">
     <!-- Sidenav content here -->
     <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>

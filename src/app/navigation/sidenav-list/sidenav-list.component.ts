@@ -25,12 +25,11 @@ export class SidenavListComponent implements OnInit, OnDestroy {
   }
 
   Login() {
-    this.onSidenavClose();
+    this.AuthSubscription();
   }
 
   onSidenavClose() {
-    // this.sidenavClose.emit();
-    this.AuthSubscription();
+    this.sidenavClose.emit();
   }
 
   AuthSubscription() {
