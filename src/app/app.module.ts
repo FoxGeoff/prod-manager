@@ -12,7 +12,7 @@ import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
 import { AuthService } from './auth/auth.service';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './auth/login/login.component';
-import { SignupComponent } from './signup/signup.component';
+import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
   declarations: [
