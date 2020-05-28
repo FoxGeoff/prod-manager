@@ -52,4 +52,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 ## Task: Add: AuthGuard class
 
+* Note add the app.module ```providers: [AuthService, AuthGuard],```
+
 ## Task: Add: Products component
