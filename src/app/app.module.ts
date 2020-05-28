@@ -13,6 +13,7 @@ import { AuthService } from './auth/auth.service';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignupComponent } from './auth/signup/signup.component';
     SidenavListComponent,
     WelcomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
