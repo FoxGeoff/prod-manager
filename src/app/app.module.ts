@@ -8,7 +8,7 @@ import { MaterialModule } from './material/material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { AuthService } from './auth/auth.service';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './auth/login/login.component';
@@ -16,6 +16,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { ProductsComponent } from './products/products.component';
 import { AuthGuard } from './auth/auth.guard';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeaderComponent } from './navigation/header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     LoginComponent,
     SignupComponent,
     ProductsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

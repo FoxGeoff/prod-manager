@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +8,7 @@ import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
 })
 export class AppComponent implements OnInit {
   @Input() openSidenav: boolean;
-  title = 'Mavreak Product Manager';
-
+  
   ngOnInit() {
     this.openSidenav = true;
   }

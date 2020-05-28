@@ -58,3 +58,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 ## Task: Add: Products component
 
 ## Task: Add: PageNotFound component
+
+## Task: Add: Angular Material BreakpointObserver
+
+* API: <https://material.angular.io/cdk/layout/overview>
+* Google standard: <https://material.io/design/layout/responsive-layout-grid.html#breakpoints>
+
+### Next Steps
+
+* Conditional behaviour on phone slide navbar on item select
+* Add product list table
+* Add NgRx
+* Add Testing
+* Add Health Checks
+* Use Rest API asp.net core 3.1
