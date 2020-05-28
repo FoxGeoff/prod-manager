@@ -52,6 +52,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 ## Task: Add: AuthGuard class
 
-* Note add the app.module ```providers: [AuthService, AuthGuard],```
+* Note add the app.module: ```providers: [AuthService, AuthGuard],```
+* For 404 page: ```{ path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page```
 
 ## Task: Add: Products component
+
+## Task: Add: PageNotFound component
