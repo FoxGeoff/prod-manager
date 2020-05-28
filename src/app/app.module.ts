@@ -17,6 +17,7 @@ import { ProductsComponent } from './products/products.component';
 import { AuthGuard } from './auth/auth.guard';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './navigation/header/header.component';
+import { SidnavComponent } from './navigation/sidnav/sidnav.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HeaderComponent } from './navigation/header/header.component';
     SignupComponent,
     ProductsComponent,
     PageNotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidnavComponent
   ],
   imports: [
     BrowserModule,

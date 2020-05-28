@@ -7,9 +7,6 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  @Input() openSidenav: boolean;
-  
-  ngOnInit() {
-    this.openSidenav = true;
-  }
+
+  ngOnInit() { }
 }
