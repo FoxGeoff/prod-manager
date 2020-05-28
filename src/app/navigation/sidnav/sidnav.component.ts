@@ -9,8 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./sidnav.component.css']
 })
 export class SidnavComponent implements OnInit {
-  @Input() openSidenav: boolean;
-  // layout responsive using BreakpointObserver
+  // DOM reference (used for BreakpointObserver)
   // MatSidenav extends MatDrawer
   @ViewChild(MatSidenav) sidenav: MatSidenav;
   smallWidthBreakpoint: boolean;
@@ -19,12 +18,11 @@ export class SidnavComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit(): void {
-    // used to always have initial drawer open
-    this.openSidenav = true;
     this.DetectViewPortSize();
   }
+
   DetectViewPortSize() {
-    // layout responsive using BreakpointObserver
+    // detect (using BreakpointObserver)
     this.breakpointObserver
       .observe(['(min-width: 500px)'])
       .subscribe((state: BreakpointState) => {
@@ -41,12 +39,18 @@ export class SidnavComponent implements OnInit {
   }
 
   CloseSmallViewPoint() {
+    // close DOM element (using BreakpointObserver)
     this.router.events.subscribe(() => {
       if (this.smallWidthBreakpoint) {
         console.log('$=== Selection made on Smallscreen, close side bar');
         this.sidenav.close();
       }
     });
+  }
+
+  // check screen size (using BreakpointObserver)
+  isScreenSmall(): boolean {
+    return this.smallWidthBreakpoint;
   }
 
 }

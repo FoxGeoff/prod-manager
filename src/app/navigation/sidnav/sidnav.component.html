@@ -2,12 +2,9 @@
 <app-header></app-header>
 
 <mat-sidenav-container class="container">
-  <!-- [opened]="openSidenav" initial state unconditionl open
-       [opened]="!smallWidthBreakpoint state is updated on change of screen size
-  -->
-  <mat-sidenav #sidenav mode="side" [opened]="!smallWidthBreakpoint">
+  <mat-sidenav #sidenav mode="side" [opened]="!isScreenSmall()">
     <!-- Sidenav content here -->
-    <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+    <app-sidenav-list></app-sidenav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <button mat-icon-button color="accent" (click)="sidenav.toggle()">
