@@ -63,10 +63,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 * API: <https://material.angular.io/cdk/layout/overview>
 * Google standard: <https://material.io/design/layout/responsive-layout-grid.html#breakpoints>
+* Conditional behaviour on phone slide navbar and on item select
+
+## Task: Add: Products Table
 
 ### Next Steps
 
-* Conditional behaviour on phone slide navbar on item select
 * Add product list table
 * Add NgRx
 * Add Testing
