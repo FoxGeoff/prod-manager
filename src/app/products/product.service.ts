@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
 import { of } from 'rxjs/observable/of';
 
@@ -75,7 +75,7 @@ export class ProductService {
     private initializeProduct(): IProduct {
         // Return an initialized object
         return {
-            'id': 0,
+            id: 0,
             productName: '',
             productCode: '',
             category: '',

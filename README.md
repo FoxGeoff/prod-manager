@@ -69,7 +69,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 ### Next Steps
 
-* Add product list table
+* Add product list table  <=== **here review observables for rxjs 6**
 * Add NgRx
 * Add Testing
 * Add Health Checks
