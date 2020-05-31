@@ -4,9 +4,9 @@ import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-sidnav',
-  templateUrl: './sidnav.component.html',
-  styleUrls: ['./sidnav.component.css']
+  selector: 'app-sidenav',
+  templateUrl: './sidenav.component.html',
+  styleUrls: ['./sidenav.component.css']
 })
 export class SidnavComponent implements OnInit {
   // DOM reference (used for BreakpointObserver)

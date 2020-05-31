@@ -21,7 +21,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { ProductsComponent } from './products/products.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './navigation/header/header.component';
-import { SidnavComponent } from './navigation/sidnav/sidnav.component';
+import { SidnavComponent } from './navigation/sidenav/sidnav.component';
 
 /* Provider Services */
 import { AuthService } from './auth/auth.service';
